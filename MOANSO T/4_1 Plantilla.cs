@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MOANSO_T
 {
-    public partial class _1 : Form
+    public partial class Form4_1 : System.Windows.Forms.Form
     {
-        public _1()
+        public Form4_1()
         {
             InitializeComponent();
         }

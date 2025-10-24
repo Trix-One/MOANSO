@@ -1,6 +1,6 @@
 ﻿namespace MOANSO_T
 {
-    partial class _1
+    partial class Form4_1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(_1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4_1));
             this.btnRegresar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -45,20 +45,20 @@
             this.btnRegresar.Location = new System.Drawing.Point(1319, 640);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(87, 79);
-            this.btnRegresar.TabIndex = 6;
+            this.btnRegresar.TabIndex = 7;
             this.btnRegresar.Text = "→";
             this.btnRegresar.UseVisualStyleBackColor = false;
             // 
-            // _1
+            // Form4_1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(21)))), ((int)(((byte)(22)))));
             this.ClientSize = new System.Drawing.Size(1407, 719);
             this.Controls.Add(this.btnRegresar);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
-            this.Name = "_1";
+            this.Name = "Form4_1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Crecer Financiera";
             this.ResumeLayout(false);
