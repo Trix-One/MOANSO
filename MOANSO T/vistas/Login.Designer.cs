@@ -142,6 +142,7 @@
             this.Controls.Add(this.LblUsuario);
             this.Controls.Add(this.PbAccesoControl);
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.PbAccesoControl)).EndInit();
             this.ResumeLayout(false);
