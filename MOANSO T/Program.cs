@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MOANSO_T.vistas;
 
 namespace MOANSO_T
 {
@@ -16,7 +17,7 @@ namespace MOANSO_T
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form0());
+            Application.Run(new Login());
         }
     }
 }
