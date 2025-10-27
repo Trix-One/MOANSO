@@ -16,5 +16,12 @@ namespace MOANSO_T
         {
             InitializeComponent();
         }
+
+        private void btnIniciarSesion_Click(object sender, EventArgs e)
+        {
+            Hide();
+            Form1 Administrador = new Form1();
+            Administrador.Show();
+        }
     }
 }
