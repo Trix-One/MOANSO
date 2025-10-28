@@ -55,7 +55,7 @@
             this.BtnIngresar.BackColor = System.Drawing.Color.PaleGreen;
             this.BtnIngresar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnIngresar.ForeColor = System.Drawing.Color.Black;
-            this.BtnIngresar.Location = new System.Drawing.Point(702, 199);
+            this.BtnIngresar.Location = new System.Drawing.Point(701, 228);
             this.BtnIngresar.Margin = new System.Windows.Forms.Padding(4);
             this.BtnIngresar.Name = "BtnIngresar";
             this.BtnIngresar.Size = new System.Drawing.Size(156, 34);
@@ -69,7 +69,7 @@
             this.BtnSalir.BackColor = System.Drawing.Color.DarkRed;
             this.BtnSalir.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnSalir.ForeColor = System.Drawing.Color.White;
-            this.BtnSalir.Location = new System.Drawing.Point(537, 199);
+            this.BtnSalir.Location = new System.Drawing.Point(528, 228);
             this.BtnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(156, 34);
@@ -80,7 +80,7 @@
             // 
             // TxtClave
             // 
-            this.TxtClave.Location = new System.Drawing.Point(666, 139);
+            this.TxtClave.Location = new System.Drawing.Point(648, 139);
             this.TxtClave.Margin = new System.Windows.Forms.Padding(4);
             this.TxtClave.Name = "TxtClave";
             this.TxtClave.Size = new System.Drawing.Size(191, 22);
@@ -88,7 +88,7 @@
             // 
             // TxtUsuario
             // 
-            this.TxtUsuario.Location = new System.Drawing.Point(666, 84);
+            this.TxtUsuario.Location = new System.Drawing.Point(648, 89);
             this.TxtUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.TxtUsuario.Name = "TxtUsuario";
             this.TxtUsuario.Size = new System.Drawing.Size(191, 22);
