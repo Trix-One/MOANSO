@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.LblLogin = new System.Windows.Forms.Label();
             this.BtnIngresar = new System.Windows.Forms.Button();
             this.BtnSalir = new System.Windows.Forms.Button();
@@ -141,9 +142,10 @@
             this.Controls.Add(this.LblClave);
             this.Controls.Add(this.LblUsuario);
             this.Controls.Add(this.PbAccesoControl);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Crecer Financiera";
             ((System.ComponentModel.ISupportInitialize)(this.PbAccesoControl)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

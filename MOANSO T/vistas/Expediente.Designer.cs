@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Expediente));
             this.label1 = new System.Windows.Forms.Label();
             this.DgvExpediente = new System.Windows.Forms.DataGridView();
             this.ExpedienteId = new System.Windows.Forms.DataGridViewLinkColumn();
@@ -134,8 +135,9 @@
             this.Controls.Add(this.BtnRegresar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.DgvExpediente);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Expediente";
-            this.Text = "Expediente";
+            this.Text = "Crecer Financiera";
             ((System.ComponentModel.ISupportInitialize)(this.DgvExpediente)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

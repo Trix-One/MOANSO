@@ -31,6 +31,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Asesor));
             this.LblMensaje = new System.Windows.Forms.Label();
             this.PbPerfil = new System.Windows.Forms.PictureBox();
             this.TpControl = new System.Windows.Forms.TabControl();
@@ -486,8 +487,9 @@
             this.Controls.Add(this.LblMensaje);
             this.Controls.Add(this.PbPerfil);
             this.Controls.Add(this.TpControl);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Asesor";
-            this.Text = "Asesor";
+            this.Text = "Crecer Financiera";
             ((System.ComponentModel.ISupportInitialize)(this.PbPerfil)).EndInit();
             this.TpControl.ResumeLayout(false);
             this.TbAnalisisCrediticio.ResumeLayout(false);

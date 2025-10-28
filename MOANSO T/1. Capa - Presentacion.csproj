@@ -190,6 +190,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="img\Administrador.png" />
+    <Content Include="img\Icono.ico" />
     <None Include="img\Asesor.png" />
     <Content Include="img\ControlAcceso.png" />
   </ItemGroup>

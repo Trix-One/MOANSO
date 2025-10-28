@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Asistente_Administrativo));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.clientes = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -307,8 +308,9 @@
             this.Controls.Add(this.BtnCerrarSesion);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Asistente_Administrativo";
-            this.Text = "Asistente_Administrativo";
+            this.Text = "Crecer Financiera";
             this.tabControl1.ResumeLayout(false);
             this.clientes.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
