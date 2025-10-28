@@ -38,7 +38,6 @@
             this.TxtDni = new System.Windows.Forms.TextBox();
             this.TxtApellidos = new System.Windows.Forms.TextBox();
             this.TxtNombres = new System.Windows.Forms.TextBox();
-            this.BtnGenerarPdf = new System.Windows.Forms.Button();
             this.Lbl = new System.Windows.Forms.Label();
             this.CboZonaAsignada = new System.Windows.Forms.ComboBox();
             this.BtnGuardar = new System.Windows.Forms.Button();
@@ -48,6 +47,7 @@
             this.LblApellidos = new System.Windows.Forms.Label();
             this.LblNombre = new System.Windows.Forms.Label();
             this.TbSolicitarPdf = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Cliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Dni = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -57,7 +57,6 @@
             this.TbReevaluacion = new System.Windows.Forms.TabPage();
             this.LblMensaje = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.TpControl.SuspendLayout();
             this.TbRegistar.SuspendLayout();
             this.GbCliente.SuspendLayout();
@@ -112,7 +111,6 @@
             this.GbCliente.Controls.Add(this.TxtDni);
             this.GbCliente.Controls.Add(this.TxtApellidos);
             this.GbCliente.Controls.Add(this.TxtNombres);
-            this.GbCliente.Controls.Add(this.BtnGenerarPdf);
             this.GbCliente.Controls.Add(this.Lbl);
             this.GbCliente.Controls.Add(this.CboZonaAsignada);
             this.GbCliente.Controls.Add(this.BtnGuardar);
@@ -173,19 +171,6 @@
             this.TxtNombres.Size = new System.Drawing.Size(212, 27);
             this.TxtNombres.TabIndex = 9;
             // 
-            // BtnGenerarPdf
-            // 
-            this.BtnGenerarPdf.BackColor = System.Drawing.Color.Brown;
-            this.BtnGenerarPdf.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnGenerarPdf.ForeColor = System.Drawing.Color.White;
-            this.BtnGenerarPdf.Location = new System.Drawing.Point(588, 192);
-            this.BtnGenerarPdf.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnGenerarPdf.Name = "BtnGenerarPdf";
-            this.BtnGenerarPdf.Size = new System.Drawing.Size(147, 31);
-            this.BtnGenerarPdf.TabIndex = 8;
-            this.BtnGenerarPdf.Text = "GENERAR PDF";
-            this.BtnGenerarPdf.UseVisualStyleBackColor = false;
-            // 
             // Lbl
             // 
             this.Lbl.AutoSize = true;
@@ -217,7 +202,7 @@
             this.BtnGuardar.BackColor = System.Drawing.Color.RoyalBlue;
             this.BtnGuardar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnGuardar.ForeColor = System.Drawing.Color.White;
-            this.BtnGuardar.Location = new System.Drawing.Point(588, 133);
+            this.BtnGuardar.Location = new System.Drawing.Point(593, 188);
             this.BtnGuardar.Margin = new System.Windows.Forms.Padding(4);
             this.BtnGuardar.Name = "BtnGuardar";
             this.BtnGuardar.Size = new System.Drawing.Size(147, 31);
@@ -288,6 +273,19 @@
             this.TbSolicitarPdf.TabIndex = 1;
             this.TbSolicitarPdf.Text = "Solicitar Pdf";
             this.TbSolicitarPdf.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Brown;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(339, 358);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(147, 31);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "GENERAR PDF";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 
@@ -391,19 +389,6 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Brown;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(339, 358);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 31);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "GENERAR PDF";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // Administrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -439,7 +424,6 @@
         private System.Windows.Forms.TextBox TxtDni;
         private System.Windows.Forms.TextBox TxtApellidos;
         private System.Windows.Forms.TextBox TxtNombres;
-        private System.Windows.Forms.Button BtnGenerarPdf;
         private System.Windows.Forms.Label Lbl;
         private System.Windows.Forms.ComboBox CboZonaAsignada;
         private System.Windows.Forms.Button BtnGuardar;
