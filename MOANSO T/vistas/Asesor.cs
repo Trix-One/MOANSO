@@ -37,5 +37,11 @@ namespace MOANSO_T.vistas
             Expediente expediente = new Expediente();
             expediente.ShowDialog();
         }
+
+        private void BtnExpedienteRiesgo_Click(object sender, EventArgs e)
+        {
+            Expediente expediente = new Expediente();
+            expediente.ShowDialog();
+        }
     }
 }

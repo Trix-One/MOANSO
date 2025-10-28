@@ -267,6 +267,7 @@
             this.BtnExpedienteRiesgo.TabIndex = 12;
             this.BtnExpedienteRiesgo.Text = "VER EXPEDIENTE";
             this.BtnExpedienteRiesgo.UseVisualStyleBackColor = false;
+            this.BtnExpedienteRiesgo.Click += new System.EventHandler(this.BtnExpedienteRiesgo_Click);
             // 
             // BtnRechazado
             // 
