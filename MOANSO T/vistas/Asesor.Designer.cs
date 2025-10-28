@@ -410,7 +410,7 @@
             this.DgvClientes.Name = "DgvClientes";
             this.DgvClientes.ReadOnly = true;
             this.DgvClientes.RowHeadersWidth = 51;
-            this.DgvClientes.Size = new System.Drawing.Size(804, 308);
+            this.DgvClientes.Size = new System.Drawing.Size(804, 327);
             this.DgvClientes.TabIndex = 1;
             // 
             // ID
