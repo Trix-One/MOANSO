@@ -72,18 +72,18 @@
             // 
             this.LblMensaje.AutoSize = true;
             this.LblMensaje.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMensaje.Location = new System.Drawing.Point(143, 53);
-            this.LblMensaje.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblMensaje.Location = new System.Drawing.Point(107, 43);
             this.LblMensaje.Name = "LblMensaje";
-            this.LblMensaje.Size = new System.Drawing.Size(117, 20);
+            this.LblMensaje.Size = new System.Drawing.Size(93, 15);
             this.LblMensaje.TabIndex = 6;
             this.LblMensaje.Text = "Hola, Supervisor";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(16, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 10);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(120, 92);
+            this.pictureBox1.Size = new System.Drawing.Size(90, 75);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
@@ -92,10 +92,11 @@
             this.tabControl1.Controls.Add(this.validarsolicitud);
             this.tabControl1.Controls.Add(this.asignarResponsable);
             this.tabControl1.Controls.Add(this.verContrato);
-            this.tabControl1.Location = new System.Drawing.Point(12, 129);
+            this.tabControl1.Location = new System.Drawing.Point(9, 105);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(776, 309);
+            this.tabControl1.Size = new System.Drawing.Size(582, 251);
             this.tabControl1.TabIndex = 4;
             // 
             // validarsolicitud
@@ -103,9 +104,10 @@
             this.validarsolicitud.Controls.Add(this.btnRechazadoSuper);
             this.validarsolicitud.Controls.Add(this.btnAprobadoSuper);
             this.validarsolicitud.Controls.Add(this.dataGridView1);
-            this.validarsolicitud.Location = new System.Drawing.Point(4, 25);
+            this.validarsolicitud.Location = new System.Drawing.Point(4, 22);
+            this.validarsolicitud.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.validarsolicitud.Name = "validarsolicitud";
-            this.validarsolicitud.Size = new System.Drawing.Size(768, 280);
+            this.validarsolicitud.Size = new System.Drawing.Size(574, 225);
             this.validarsolicitud.TabIndex = 0;
             this.validarsolicitud.Text = "Validar Solicitud";
             this.validarsolicitud.UseVisualStyleBackColor = true;
@@ -115,10 +117,9 @@
             this.btnRechazadoSuper.BackColor = System.Drawing.Color.Brown;
             this.btnRechazadoSuper.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRechazadoSuper.ForeColor = System.Drawing.Color.White;
-            this.btnRechazadoSuper.Location = new System.Drawing.Point(418, 229);
-            this.btnRechazadoSuper.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRechazadoSuper.Location = new System.Drawing.Point(314, 186);
             this.btnRechazadoSuper.Name = "btnRechazadoSuper";
-            this.btnRechazadoSuper.Size = new System.Drawing.Size(160, 31);
+            this.btnRechazadoSuper.Size = new System.Drawing.Size(120, 25);
             this.btnRechazadoSuper.TabIndex = 7;
             this.btnRechazadoSuper.Text = "RECHAZADO";
             this.btnRechazadoSuper.UseVisualStyleBackColor = false;
@@ -128,10 +129,9 @@
             this.btnAprobadoSuper.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnAprobadoSuper.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAprobadoSuper.ForeColor = System.Drawing.Color.White;
-            this.btnAprobadoSuper.Location = new System.Drawing.Point(204, 229);
-            this.btnAprobadoSuper.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAprobadoSuper.Location = new System.Drawing.Point(153, 186);
             this.btnAprobadoSuper.Name = "btnAprobadoSuper";
-            this.btnAprobadoSuper.Size = new System.Drawing.Size(160, 31);
+            this.btnAprobadoSuper.Size = new System.Drawing.Size(120, 25);
             this.btnAprobadoSuper.TabIndex = 6;
             this.btnAprobadoSuper.Text = "APROBADO";
             this.btnAprobadoSuper.UseVisualStyleBackColor = false;
@@ -146,12 +146,13 @@
             this.Apellido,
             this.Estado,
             this.DNI});
-            this.dataGridView1.Location = new System.Drawing.Point(4, 4);
+            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(761, 195);
+            this.dataGridView1.Size = new System.Drawing.Size(571, 158);
             this.dataGridView1.TabIndex = 0;
             // 
             // Nombre
@@ -192,9 +193,10 @@
             this.asignarResponsable.Controls.Add(this.btnCambiarAsesor);
             this.asignarResponsable.Controls.Add(this.btnAsignarCobrador);
             this.asignarResponsable.Controls.Add(this.dataGridView2);
-            this.asignarResponsable.Location = new System.Drawing.Point(4, 25);
+            this.asignarResponsable.Location = new System.Drawing.Point(4, 22);
+            this.asignarResponsable.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.asignarResponsable.Name = "asignarResponsable";
-            this.asignarResponsable.Size = new System.Drawing.Size(768, 280);
+            this.asignarResponsable.Size = new System.Drawing.Size(574, 225);
             this.asignarResponsable.TabIndex = 1;
             this.asignarResponsable.Text = "Asignar Responsable";
             this.asignarResponsable.UseVisualStyleBackColor = true;
@@ -204,10 +206,9 @@
             this.btnCambiarCobrador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnCambiarCobrador.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCambiarCobrador.ForeColor = System.Drawing.Color.White;
-            this.btnCambiarCobrador.Location = new System.Drawing.Point(563, 223);
-            this.btnCambiarCobrador.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCambiarCobrador.Location = new System.Drawing.Point(422, 181);
             this.btnCambiarCobrador.Name = "btnCambiarCobrador";
-            this.btnCambiarCobrador.Size = new System.Drawing.Size(188, 31);
+            this.btnCambiarCobrador.Size = new System.Drawing.Size(141, 25);
             this.btnCambiarCobrador.TabIndex = 7;
             this.btnCambiarCobrador.Text = "CAMBIAR COBRADOR";
             this.btnCambiarCobrador.UseVisualStyleBackColor = false;
@@ -217,10 +218,9 @@
             this.btnCambiarAsesor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnCambiarAsesor.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCambiarAsesor.ForeColor = System.Drawing.Color.White;
-            this.btnCambiarAsesor.Location = new System.Drawing.Point(325, 223);
-            this.btnCambiarAsesor.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCambiarAsesor.Location = new System.Drawing.Point(244, 181);
             this.btnCambiarAsesor.Name = "btnCambiarAsesor";
-            this.btnCambiarAsesor.Size = new System.Drawing.Size(171, 31);
+            this.btnCambiarAsesor.Size = new System.Drawing.Size(128, 25);
             this.btnCambiarAsesor.TabIndex = 6;
             this.btnCambiarAsesor.Text = "CAMBIAR ASESOR ";
             this.btnCambiarAsesor.UseVisualStyleBackColor = false;
@@ -230,10 +230,9 @@
             this.btnAsignarCobrador.BackColor = System.Drawing.Color.MediumAquamarine;
             this.btnAsignarCobrador.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAsignarCobrador.ForeColor = System.Drawing.Color.White;
-            this.btnAsignarCobrador.Location = new System.Drawing.Point(4, 223);
-            this.btnAsignarCobrador.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAsignarCobrador.Location = new System.Drawing.Point(3, 181);
             this.btnAsignarCobrador.Name = "btnAsignarCobrador";
-            this.btnAsignarCobrador.Size = new System.Drawing.Size(252, 31);
+            this.btnAsignarCobrador.Size = new System.Drawing.Size(222, 25);
             this.btnAsignarCobrador.TabIndex = 5;
             this.btnAsignarCobrador.Text = "ASIGNAR ASESOR Y COBRADOR ";
             this.btnAsignarCobrador.UseVisualStyleBackColor = false;
@@ -249,12 +248,13 @@
             this.apellidocliSuper,
             this.EstadoAsesor,
             this.cobrador});
-            this.dataGridView2.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView2.Location = new System.Drawing.Point(2, 2);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(762, 213);
+            this.dataGridView2.Size = new System.Drawing.Size(572, 173);
             this.dataGridView2.TabIndex = 0;
             // 
             // dniAsignar
@@ -302,9 +302,10 @@
             this.verContrato.Controls.Add(this.btnAplazarContrato);
             this.verContrato.Controls.Add(this.btnGenerarContrato);
             this.verContrato.Controls.Add(this.dataGridView3);
-            this.verContrato.Location = new System.Drawing.Point(4, 25);
+            this.verContrato.Location = new System.Drawing.Point(4, 22);
+            this.verContrato.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.verContrato.Name = "verContrato";
-            this.verContrato.Size = new System.Drawing.Size(768, 280);
+            this.verContrato.Size = new System.Drawing.Size(574, 225);
             this.verContrato.TabIndex = 2;
             this.verContrato.Text = "Contrato";
             this.verContrato.UseVisualStyleBackColor = true;
@@ -314,10 +315,9 @@
             this.btnAplazarContrato.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btnAplazarContrato.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAplazarContrato.ForeColor = System.Drawing.Color.White;
-            this.btnAplazarContrato.Location = new System.Drawing.Point(395, 217);
-            this.btnAplazarContrato.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAplazarContrato.Location = new System.Drawing.Point(296, 176);
             this.btnAplazarContrato.Name = "btnAplazarContrato";
-            this.btnAplazarContrato.Size = new System.Drawing.Size(171, 31);
+            this.btnAplazarContrato.Size = new System.Drawing.Size(128, 25);
             this.btnAplazarContrato.TabIndex = 8;
             this.btnAplazarContrato.Text = "APLAZAR CONTRATO";
             this.btnAplazarContrato.UseVisualStyleBackColor = false;
@@ -327,10 +327,9 @@
             this.btnGenerarContrato.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnGenerarContrato.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenerarContrato.ForeColor = System.Drawing.Color.White;
-            this.btnGenerarContrato.Location = new System.Drawing.Point(216, 217);
-            this.btnGenerarContrato.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGenerarContrato.Location = new System.Drawing.Point(162, 176);
             this.btnGenerarContrato.Name = "btnGenerarContrato";
-            this.btnGenerarContrato.Size = new System.Drawing.Size(171, 31);
+            this.btnGenerarContrato.Size = new System.Drawing.Size(128, 25);
             this.btnGenerarContrato.TabIndex = 7;
             this.btnGenerarContrato.Text = "GENERAR CONTRATO";
             this.btnGenerarContrato.UseVisualStyleBackColor = false;
@@ -345,12 +344,13 @@
             this.dniSuperv,
             this.estadoSuper,
             this.fechaFirma});
-            this.dataGridView3.Location = new System.Drawing.Point(3, 3);
+            this.dataGridView3.Location = new System.Drawing.Point(2, 2);
+            this.dataGridView3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.ReadOnly = true;
             this.dataGridView3.RowHeadersWidth = 51;
             this.dataGridView3.RowTemplate.Height = 24;
-            this.dataGridView3.Size = new System.Drawing.Size(762, 194);
+            this.dataGridView3.Size = new System.Drawing.Size(572, 158);
             this.dataGridView3.TabIndex = 0;
             // 
             // cliente
@@ -390,10 +390,9 @@
             this.BtnCerrarSesion.BackColor = System.Drawing.Color.Brown;
             this.BtnCerrarSesion.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCerrarSesion.ForeColor = System.Drawing.Color.White;
-            this.BtnCerrarSesion.Location = new System.Drawing.Point(623, 53);
-            this.BtnCerrarSesion.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnCerrarSesion.Location = new System.Drawing.Point(467, 43);
             this.BtnCerrarSesion.Name = "BtnCerrarSesion";
-            this.BtnCerrarSesion.Size = new System.Drawing.Size(147, 37);
+            this.BtnCerrarSesion.Size = new System.Drawing.Size(110, 30);
             this.BtnCerrarSesion.TabIndex = 8;
             this.BtnCerrarSesion.Text = "CERRAR SESION";
             this.BtnCerrarSesion.UseVisualStyleBackColor = false;
@@ -401,13 +400,14 @@
             // 
             // Supervisor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.BtnCerrarSesion);
             this.Controls.Add(this.LblMensaje);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.tabControl1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Supervisor";
             this.Text = "Supervisor";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
