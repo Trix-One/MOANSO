@@ -380,6 +380,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Cobrador";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Crecer Financiera";
             this.tabControl1.ResumeLayout(false);
             this.clientesC.ResumeLayout(false);

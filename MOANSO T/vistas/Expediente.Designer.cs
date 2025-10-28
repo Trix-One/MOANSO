@@ -137,6 +137,7 @@
             this.Controls.Add(this.DgvExpediente);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Expediente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Crecer Financiera";
             ((System.ComponentModel.ISupportInitialize)(this.DgvExpediente)).EndInit();
             this.ResumeLayout(false);

@@ -489,6 +489,7 @@
             this.Controls.Add(this.TpControl);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Asesor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Crecer Financiera";
             ((System.ComponentModel.ISupportInitialize)(this.PbPerfil)).EndInit();
             this.TpControl.ResumeLayout(false);

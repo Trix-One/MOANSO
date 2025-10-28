@@ -120,7 +120,7 @@
             this.btnRechazadoSuper.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRechazadoSuper.ForeColor = System.Drawing.Color.White;
             this.btnRechazadoSuper.Location = new System.Drawing.Point(419, 229);
-            this.btnRechazadoSuper.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRechazadoSuper.Margin = new System.Windows.Forms.Padding(4);
             this.btnRechazadoSuper.Name = "btnRechazadoSuper";
             this.btnRechazadoSuper.Size = new System.Drawing.Size(160, 31);
             this.btnRechazadoSuper.TabIndex = 7;
@@ -133,7 +133,7 @@
             this.btnAprobadoSuper.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAprobadoSuper.ForeColor = System.Drawing.Color.White;
             this.btnAprobadoSuper.Location = new System.Drawing.Point(204, 229);
-            this.btnAprobadoSuper.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAprobadoSuper.Margin = new System.Windows.Forms.Padding(4);
             this.btnAprobadoSuper.Name = "btnAprobadoSuper";
             this.btnAprobadoSuper.Size = new System.Drawing.Size(160, 31);
             this.btnAprobadoSuper.TabIndex = 6;
@@ -211,7 +211,7 @@
             this.btnCambiarCobrador.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCambiarCobrador.ForeColor = System.Drawing.Color.White;
             this.btnCambiarCobrador.Location = new System.Drawing.Point(563, 223);
-            this.btnCambiarCobrador.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCambiarCobrador.Margin = new System.Windows.Forms.Padding(4);
             this.btnCambiarCobrador.Name = "btnCambiarCobrador";
             this.btnCambiarCobrador.Size = new System.Drawing.Size(188, 31);
             this.btnCambiarCobrador.TabIndex = 7;
@@ -224,7 +224,7 @@
             this.btnCambiarAsesor.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCambiarAsesor.ForeColor = System.Drawing.Color.White;
             this.btnCambiarAsesor.Location = new System.Drawing.Point(325, 223);
-            this.btnCambiarAsesor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCambiarAsesor.Margin = new System.Windows.Forms.Padding(4);
             this.btnCambiarAsesor.Name = "btnCambiarAsesor";
             this.btnCambiarAsesor.Size = new System.Drawing.Size(171, 31);
             this.btnCambiarAsesor.TabIndex = 6;
@@ -237,7 +237,7 @@
             this.btnAsignarCobrador.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAsignarCobrador.ForeColor = System.Drawing.Color.White;
             this.btnAsignarCobrador.Location = new System.Drawing.Point(4, 223);
-            this.btnAsignarCobrador.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAsignarCobrador.Margin = new System.Windows.Forms.Padding(4);
             this.btnAsignarCobrador.Name = "btnAsignarCobrador";
             this.btnAsignarCobrador.Size = new System.Drawing.Size(296, 31);
             this.btnAsignarCobrador.TabIndex = 5;
@@ -323,7 +323,7 @@
             this.btnAplazarContrato.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAplazarContrato.ForeColor = System.Drawing.Color.White;
             this.btnAplazarContrato.Location = new System.Drawing.Point(395, 217);
-            this.btnAplazarContrato.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAplazarContrato.Margin = new System.Windows.Forms.Padding(4);
             this.btnAplazarContrato.Name = "btnAplazarContrato";
             this.btnAplazarContrato.Size = new System.Drawing.Size(171, 31);
             this.btnAplazarContrato.TabIndex = 8;
@@ -336,7 +336,7 @@
             this.btnGenerarContrato.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenerarContrato.ForeColor = System.Drawing.Color.White;
             this.btnGenerarContrato.Location = new System.Drawing.Point(216, 217);
-            this.btnGenerarContrato.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGenerarContrato.Margin = new System.Windows.Forms.Padding(4);
             this.btnGenerarContrato.Name = "btnGenerarContrato";
             this.btnGenerarContrato.Size = new System.Drawing.Size(171, 31);
             this.btnGenerarContrato.TabIndex = 7;
@@ -400,7 +400,7 @@
             this.BtnCerrarSesion.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCerrarSesion.ForeColor = System.Drawing.Color.White;
             this.BtnCerrarSesion.Location = new System.Drawing.Point(623, 53);
-            this.BtnCerrarSesion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnCerrarSesion.Margin = new System.Windows.Forms.Padding(4);
             this.BtnCerrarSesion.Name = "BtnCerrarSesion";
             this.BtnCerrarSesion.Size = new System.Drawing.Size(147, 37);
             this.BtnCerrarSesion.TabIndex = 8;
@@ -420,6 +420,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Supervisor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Crecer Financiera";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabControl1.ResumeLayout(false);
