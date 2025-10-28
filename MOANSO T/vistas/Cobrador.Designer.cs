@@ -55,6 +55,7 @@
             this.btnSubiEvidencia = new System.Windows.Forms.Button();
             this.LblMensaje = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BtnCerrarSesion = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.clientesC.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -303,6 +304,7 @@
             this.btnVerCliente.TabIndex = 14;
             this.btnVerCliente.Text = "VER CLIENTE";
             this.btnVerCliente.UseVisualStyleBackColor = false;
+            this.btnVerCliente.Click += new System.EventHandler(this.btnVerCliente_Click);
             // 
             // btnPagoFueraTiempo
             // 
@@ -349,11 +351,26 @@
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
+            // BtnCerrarSesion
+            // 
+            this.BtnCerrarSesion.BackColor = System.Drawing.Color.Brown;
+            this.BtnCerrarSesion.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCerrarSesion.ForeColor = System.Drawing.Color.White;
+            this.BtnCerrarSesion.Location = new System.Drawing.Point(664, 36);
+            this.BtnCerrarSesion.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnCerrarSesion.Name = "BtnCerrarSesion";
+            this.BtnCerrarSesion.Size = new System.Drawing.Size(147, 37);
+            this.BtnCerrarSesion.TabIndex = 16;
+            this.BtnCerrarSesion.Text = "CERRAR SESION";
+            this.BtnCerrarSesion.UseVisualStyleBackColor = false;
+            this.BtnCerrarSesion.Click += new System.EventHandler(this.BtnCerrarSesion_Click);
+            // 
             // Cobrador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(835, 450);
+            this.Controls.Add(this.BtnCerrarSesion);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btnVerCliente);
             this.Controls.Add(this.btnPagoFueraTiempo);
@@ -404,5 +421,6 @@
         private System.Windows.Forms.Button btnSubiEvidencia;
         private System.Windows.Forms.Label LblMensaje;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button BtnCerrarSesion;
     }
 }

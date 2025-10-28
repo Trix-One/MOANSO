@@ -24,9 +24,40 @@ namespace MOANSO_T.vistas
 
         private void BtnIngresar_Click(object sender, EventArgs e)
         {
-            Hide();
-            Administrador _Administrador = new Administrador();
-            _Administrador.Show();
+            // Usuarios y contraseñas temporales creados aquí mismo
+            string usuario = TxtUsuario.Text;
+            string contra = TxtClave.Text;
+
+            // Validación directa
+            if (usuario == "Asesor" && contra == "1234")
+            {
+                new Asesor().Show();
+                this.Hide();
+            }
+            else if (usuario == "Cobrador" && contra == "cob123")
+            {
+                new Cobrador().Show();
+                this.Hide();
+            }
+            else if (usuario == "AsistenteAdministrativo" && contra == "asis2025")
+            {
+                new Asistente_Administrativo().Show();
+                this.Hide();
+            }
+            else if (usuario == "Administrador" && contra == "admin123")
+            {
+                new Administrador().Show();
+                this.Hide();
+            }
+            else if (usuario == "Supervisor" && contra == "sup2025")
+            {
+                new Supervisor().Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos");
+            }
         }
     }
 }

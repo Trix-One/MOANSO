@@ -62,6 +62,7 @@
             this.DNICliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Documento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BtnCerrarSesion = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PbPerfil)).BeginInit();
             this.TpControl.SuspendLayout();
             this.TbAnalisisCrediticio.SuspendLayout();
@@ -135,6 +136,7 @@
             this.BtnExpedienteCrediticio.TabIndex = 7;
             this.BtnExpedienteCrediticio.Text = "VER EXPEDIENTE";
             this.BtnExpedienteCrediticio.UseVisualStyleBackColor = false;
+            this.BtnExpedienteCrediticio.Click += new System.EventHandler(this.BtnExpedienteCrediticio_Click);
             // 
             // BtnRechazadoCrediticio
             // 
@@ -460,11 +462,26 @@
             this.dataGridViewTextBoxColumn4.ReadOnly = true;
             this.dataGridViewTextBoxColumn4.Width = 105;
             // 
+            // BtnCerrarSesion
+            // 
+            this.BtnCerrarSesion.BackColor = System.Drawing.Color.Brown;
+            this.BtnCerrarSesion.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCerrarSesion.ForeColor = System.Drawing.Color.White;
+            this.BtnCerrarSesion.Location = new System.Drawing.Point(696, 49);
+            this.BtnCerrarSesion.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnCerrarSesion.Name = "BtnCerrarSesion";
+            this.BtnCerrarSesion.Size = new System.Drawing.Size(147, 37);
+            this.BtnCerrarSesion.TabIndex = 8;
+            this.BtnCerrarSesion.Text = "CERRAR SESION";
+            this.BtnCerrarSesion.UseVisualStyleBackColor = false;
+            this.BtnCerrarSesion.Click += new System.EventHandler(this.BtnCerrarSesion_Click);
+            // 
             // Asesor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(863, 522);
+            this.Controls.Add(this.BtnCerrarSesion);
             this.Controls.Add(this.LblMensaje);
             this.Controls.Add(this.PbPerfil);
             this.Controls.Add(this.TpControl);
@@ -516,5 +533,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn DNICliente;
         private System.Windows.Forms.DataGridViewTextBoxColumn Documento;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.Button BtnCerrarSesion;
     }
 }

@@ -16,5 +16,20 @@ namespace MOANSO_T.vistas
         {
             InitializeComponent();
         }
+        #region Validaciones
+        void RedirigirLogin()
+        {
+            Hide();
+            Login _Login = new Login();
+            _Login.Show();
+        }
+
+        //void bool ValidarFormulario() { }
+        #endregion
+
+        private void BtnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            RedirigirLogin();
+        }
     }
 }

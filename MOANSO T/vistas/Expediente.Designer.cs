@@ -35,6 +35,7 @@
             this.Documento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Responsable = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BtnRegresar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DgvExpediente)).BeginInit();
             this.SuspendLayout();
             // 
@@ -111,11 +112,26 @@
             this.Fecha.ReadOnly = true;
             this.Fecha.Width = 125;
             // 
+            // BtnRegresar
+            // 
+            this.BtnRegresar.BackColor = System.Drawing.Color.Brown;
+            this.BtnRegresar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnRegresar.ForeColor = System.Drawing.Color.White;
+            this.BtnRegresar.Location = new System.Drawing.Point(317, 436);
+            this.BtnRegresar.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnRegresar.Name = "BtnRegresar";
+            this.BtnRegresar.Size = new System.Drawing.Size(147, 37);
+            this.BtnRegresar.TabIndex = 9;
+            this.BtnRegresar.Text = "Regresar";
+            this.BtnRegresar.UseVisualStyleBackColor = false;
+            this.BtnRegresar.Click += new System.EventHandler(this.BtnRegresar_Click);
+            // 
             // Expediente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(792, 443);
+            this.ClientSize = new System.Drawing.Size(792, 498);
+            this.Controls.Add(this.BtnRegresar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.DgvExpediente);
             this.Name = "Expediente";
@@ -134,5 +150,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Documento;
         private System.Windows.Forms.DataGridViewTextBoxColumn Responsable;
         private System.Windows.Forms.DataGridViewTextBoxColumn Fecha;
+        private System.Windows.Forms.Button BtnRegresar;
     }
 }

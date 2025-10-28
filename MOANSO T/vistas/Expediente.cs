@@ -16,5 +16,10 @@ namespace MOANSO_T.vistas
         {
             InitializeComponent();
         }
+
+        private void BtnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

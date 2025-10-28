@@ -50,6 +50,7 @@
             this.totalClientesProm = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clientesAprobadosProm = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BtnCerrarSesion = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.clientes.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -284,11 +285,26 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
+            // BtnCerrarSesion
+            // 
+            this.BtnCerrarSesion.BackColor = System.Drawing.Color.Brown;
+            this.BtnCerrarSesion.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCerrarSesion.ForeColor = System.Drawing.Color.White;
+            this.BtnCerrarSesion.Location = new System.Drawing.Point(621, 55);
+            this.BtnCerrarSesion.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnCerrarSesion.Name = "BtnCerrarSesion";
+            this.BtnCerrarSesion.Size = new System.Drawing.Size(147, 37);
+            this.BtnCerrarSesion.TabIndex = 8;
+            this.BtnCerrarSesion.Text = "CERRAR SESION";
+            this.BtnCerrarSesion.UseVisualStyleBackColor = false;
+            this.BtnCerrarSesion.Click += new System.EventHandler(this.BtnCerrarSesion_Click);
+            // 
             // Asistente_Administrativo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BtnCerrarSesion);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Asistente_Administrativo";
@@ -329,5 +345,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn totalClientesProm;
         private System.Windows.Forms.DataGridViewTextBoxColumn clientesAprobadosProm;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button BtnCerrarSesion;
     }
 }
