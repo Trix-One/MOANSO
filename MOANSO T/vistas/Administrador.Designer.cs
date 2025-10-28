@@ -70,10 +70,9 @@
             this.BtnCerrarSesion.BackColor = System.Drawing.Color.Brown;
             this.BtnCerrarSesion.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCerrarSesion.ForeColor = System.Drawing.Color.White;
-            this.BtnCerrarSesion.Location = new System.Drawing.Point(710, 39);
-            this.BtnCerrarSesion.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnCerrarSesion.Location = new System.Drawing.Point(532, 32);
             this.BtnCerrarSesion.Name = "BtnCerrarSesion";
-            this.BtnCerrarSesion.Size = new System.Drawing.Size(147, 37);
+            this.BtnCerrarSesion.Size = new System.Drawing.Size(110, 30);
             this.BtnCerrarSesion.TabIndex = 7;
             this.BtnCerrarSesion.Text = "CERRAR SESION";
             this.BtnCerrarSesion.UseVisualStyleBackColor = false;
@@ -85,21 +84,19 @@
             this.TpControl.Controls.Add(this.TbSolicitarPdf);
             this.TpControl.Controls.Add(this.TbReevaluacion);
             this.TpControl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TpControl.Location = new System.Drawing.Point(19, 97);
-            this.TpControl.Margin = new System.Windows.Forms.Padding(4);
+            this.TpControl.Location = new System.Drawing.Point(14, 79);
             this.TpControl.Name = "TpControl";
             this.TpControl.SelectedIndex = 0;
-            this.TpControl.Size = new System.Drawing.Size(843, 442);
+            this.TpControl.Size = new System.Drawing.Size(632, 359);
             this.TpControl.TabIndex = 6;
             // 
             // TbRegistar
             // 
             this.TbRegistar.Controls.Add(this.GbCliente);
-            this.TbRegistar.Location = new System.Drawing.Point(4, 29);
-            this.TbRegistar.Margin = new System.Windows.Forms.Padding(4);
+            this.TbRegistar.Location = new System.Drawing.Point(4, 24);
             this.TbRegistar.Name = "TbRegistar";
-            this.TbRegistar.Padding = new System.Windows.Forms.Padding(4);
-            this.TbRegistar.Size = new System.Drawing.Size(835, 409);
+            this.TbRegistar.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.TbRegistar.Size = new System.Drawing.Size(624, 331);
             this.TbRegistar.TabIndex = 0;
             this.TbRegistar.Text = "Registar";
             this.TbRegistar.UseVisualStyleBackColor = true;
@@ -120,64 +117,56 @@
             this.GbCliente.Controls.Add(this.LblApellidos);
             this.GbCliente.Controls.Add(this.LblNombre);
             this.GbCliente.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GbCliente.Location = new System.Drawing.Point(8, 7);
-            this.GbCliente.Margin = new System.Windows.Forms.Padding(4);
+            this.GbCliente.Location = new System.Drawing.Point(6, 6);
             this.GbCliente.Name = "GbCliente";
-            this.GbCliente.Padding = new System.Windows.Forms.Padding(4);
-            this.GbCliente.Size = new System.Drawing.Size(816, 395);
+            this.GbCliente.Size = new System.Drawing.Size(612, 321);
             this.GbCliente.TabIndex = 1;
             this.GbCliente.TabStop = false;
             this.GbCliente.Text = "Datos Cliente";
             // 
             // TxtTelefono
             // 
-            this.TxtTelefono.Location = new System.Drawing.Point(265, 270);
-            this.TxtTelefono.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtTelefono.Location = new System.Drawing.Point(199, 219);
             this.TxtTelefono.MaxLength = 9;
             this.TxtTelefono.Name = "TxtTelefono";
-            this.TxtTelefono.Size = new System.Drawing.Size(212, 27);
+            this.TxtTelefono.Size = new System.Drawing.Size(160, 23);
             this.TxtTelefono.TabIndex = 13;
             // 
             // TxtDireccion
             // 
-            this.TxtDireccion.Location = new System.Drawing.Point(265, 223);
-            this.TxtDireccion.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtDireccion.Location = new System.Drawing.Point(199, 181);
             this.TxtDireccion.Name = "TxtDireccion";
-            this.TxtDireccion.Size = new System.Drawing.Size(212, 27);
+            this.TxtDireccion.Size = new System.Drawing.Size(160, 23);
             this.TxtDireccion.TabIndex = 12;
             // 
             // TxtDni
             // 
-            this.TxtDni.Location = new System.Drawing.Point(265, 170);
-            this.TxtDni.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtDni.Location = new System.Drawing.Point(199, 138);
             this.TxtDni.MaxLength = 8;
             this.TxtDni.Name = "TxtDni";
-            this.TxtDni.Size = new System.Drawing.Size(212, 27);
+            this.TxtDni.Size = new System.Drawing.Size(160, 23);
             this.TxtDni.TabIndex = 11;
             // 
             // TxtApellidos
             // 
-            this.TxtApellidos.Location = new System.Drawing.Point(265, 112);
-            this.TxtApellidos.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtApellidos.Location = new System.Drawing.Point(199, 91);
             this.TxtApellidos.Name = "TxtApellidos";
-            this.TxtApellidos.Size = new System.Drawing.Size(212, 27);
+            this.TxtApellidos.Size = new System.Drawing.Size(160, 23);
             this.TxtApellidos.TabIndex = 10;
             // 
             // TxtNombres
             // 
-            this.TxtNombres.Location = new System.Drawing.Point(265, 59);
-            this.TxtNombres.Margin = new System.Windows.Forms.Padding(4);
+            this.TxtNombres.Location = new System.Drawing.Point(199, 48);
             this.TxtNombres.Name = "TxtNombres";
-            this.TxtNombres.Size = new System.Drawing.Size(212, 27);
+            this.TxtNombres.Size = new System.Drawing.Size(160, 23);
             this.TxtNombres.TabIndex = 9;
             // 
             // Lbl
             // 
             this.Lbl.AutoSize = true;
-            this.Lbl.Location = new System.Drawing.Point(25, 334);
-            this.Lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Lbl.Location = new System.Drawing.Point(19, 271);
             this.Lbl.Name = "Lbl";
-            this.Lbl.Size = new System.Drawing.Size(109, 20);
+            this.Lbl.Size = new System.Drawing.Size(86, 15);
             this.Lbl.TabIndex = 7;
             this.Lbl.Text = "Zona Asignada";
             // 
@@ -191,10 +180,9 @@
             "Chiclayo",
             "Piura",
             "Lima"});
-            this.CboZonaAsignada.Location = new System.Drawing.Point(265, 324);
-            this.CboZonaAsignada.Margin = new System.Windows.Forms.Padding(4);
+            this.CboZonaAsignada.Location = new System.Drawing.Point(199, 263);
             this.CboZonaAsignada.Name = "CboZonaAsignada";
-            this.CboZonaAsignada.Size = new System.Drawing.Size(212, 28);
+            this.CboZonaAsignada.Size = new System.Drawing.Size(160, 23);
             this.CboZonaAsignada.TabIndex = 6;
             // 
             // BtnGuardar
@@ -202,10 +190,9 @@
             this.BtnGuardar.BackColor = System.Drawing.Color.RoyalBlue;
             this.BtnGuardar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnGuardar.ForeColor = System.Drawing.Color.White;
-            this.BtnGuardar.Location = new System.Drawing.Point(593, 188);
-            this.BtnGuardar.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnGuardar.Location = new System.Drawing.Point(438, 96);
             this.BtnGuardar.Name = "BtnGuardar";
-            this.BtnGuardar.Size = new System.Drawing.Size(147, 31);
+            this.BtnGuardar.Size = new System.Drawing.Size(110, 25);
             this.BtnGuardar.TabIndex = 5;
             this.BtnGuardar.Text = "GUARDAR";
             this.BtnGuardar.UseVisualStyleBackColor = false;
@@ -214,50 +201,45 @@
             // LblTelefono
             // 
             this.LblTelefono.AutoSize = true;
-            this.LblTelefono.Location = new System.Drawing.Point(25, 278);
-            this.LblTelefono.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblTelefono.Location = new System.Drawing.Point(19, 226);
             this.LblTelefono.Name = "LblTelefono";
-            this.LblTelefono.Size = new System.Drawing.Size(67, 20);
+            this.LblTelefono.Size = new System.Drawing.Size(52, 15);
             this.LblTelefono.TabIndex = 4;
             this.LblTelefono.Text = "Teléfono";
             // 
             // LblDireccion
             // 
             this.LblDireccion.AutoSize = true;
-            this.LblDireccion.Location = new System.Drawing.Point(25, 231);
-            this.LblDireccion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblDireccion.Location = new System.Drawing.Point(19, 188);
             this.LblDireccion.Name = "LblDireccion";
-            this.LblDireccion.Size = new System.Drawing.Size(72, 20);
+            this.LblDireccion.Size = new System.Drawing.Size(57, 15);
             this.LblDireccion.TabIndex = 3;
             this.LblDireccion.Text = "Dirección";
             // 
             // LblDni
             // 
             this.LblDni.AutoSize = true;
-            this.LblDni.Location = new System.Drawing.Point(25, 177);
-            this.LblDni.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblDni.Location = new System.Drawing.Point(19, 144);
             this.LblDni.Name = "LblDni";
-            this.LblDni.Size = new System.Drawing.Size(202, 20);
+            this.LblDni.Size = new System.Drawing.Size(161, 15);
             this.LblDni.TabIndex = 2;
             this.LblDni.Text = "Documento de Identificación";
             // 
             // LblApellidos
             // 
             this.LblApellidos.AutoSize = true;
-            this.LblApellidos.Location = new System.Drawing.Point(25, 118);
-            this.LblApellidos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblApellidos.Location = new System.Drawing.Point(19, 96);
             this.LblApellidos.Name = "LblApellidos";
-            this.LblApellidos.Size = new System.Drawing.Size(72, 20);
+            this.LblApellidos.Size = new System.Drawing.Size(56, 15);
             this.LblApellidos.TabIndex = 1;
             this.LblApellidos.Text = "Apellidos";
             // 
             // LblNombre
             // 
             this.LblNombre.AutoSize = true;
-            this.LblNombre.Location = new System.Drawing.Point(25, 68);
-            this.LblNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblNombre.Location = new System.Drawing.Point(19, 55);
             this.LblNombre.Name = "LblNombre";
-            this.LblNombre.Size = new System.Drawing.Size(70, 20);
+            this.LblNombre.Size = new System.Drawing.Size(56, 15);
             this.LblNombre.TabIndex = 0;
             this.LblNombre.Text = "Nombres";
             // 
@@ -265,11 +247,10 @@
             // 
             this.TbSolicitarPdf.Controls.Add(this.button1);
             this.TbSolicitarPdf.Controls.Add(this.dataGridView1);
-            this.TbSolicitarPdf.Location = new System.Drawing.Point(4, 29);
-            this.TbSolicitarPdf.Margin = new System.Windows.Forms.Padding(4);
+            this.TbSolicitarPdf.Location = new System.Drawing.Point(4, 24);
             this.TbSolicitarPdf.Name = "TbSolicitarPdf";
-            this.TbSolicitarPdf.Padding = new System.Windows.Forms.Padding(4);
-            this.TbSolicitarPdf.Size = new System.Drawing.Size(835, 409);
+            this.TbSolicitarPdf.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.TbSolicitarPdf.Size = new System.Drawing.Size(624, 331);
             this.TbSolicitarPdf.TabIndex = 1;
             this.TbSolicitarPdf.Text = "Solicitar Pdf";
             this.TbSolicitarPdf.UseVisualStyleBackColor = true;
@@ -279,10 +260,9 @@
             this.button1.BackColor = System.Drawing.Color.Brown;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(339, 358);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(254, 291);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 31);
+            this.button1.Size = new System.Drawing.Size(110, 25);
             this.button1.TabIndex = 9;
             this.button1.Text = "GENERAR PDF";
             this.button1.UseVisualStyleBackColor = false;
@@ -308,12 +288,11 @@
             this.Telefono,
             this.Pdf});
             this.dataGridView1.EnableHeadersVisualStyles = false;
-            this.dataGridView1.Location = new System.Drawing.Point(8, 27);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
+            this.dataGridView1.Location = new System.Drawing.Point(6, 22);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(804, 308);
+            this.dataGridView1.Size = new System.Drawing.Size(603, 250);
             this.dataGridView1.TabIndex = 0;
             // 
             // Cliente
@@ -358,11 +337,10 @@
             // 
             // TbReevaluacion
             // 
-            this.TbReevaluacion.Location = new System.Drawing.Point(4, 29);
-            this.TbReevaluacion.Margin = new System.Windows.Forms.Padding(4);
+            this.TbReevaluacion.Location = new System.Drawing.Point(4, 24);
             this.TbReevaluacion.Name = "TbReevaluacion";
-            this.TbReevaluacion.Padding = new System.Windows.Forms.Padding(4);
-            this.TbReevaluacion.Size = new System.Drawing.Size(835, 409);
+            this.TbReevaluacion.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.TbReevaluacion.Size = new System.Drawing.Size(624, 331);
             this.TbReevaluacion.TabIndex = 2;
             this.TbReevaluacion.Text = "Reevaluación";
             this.TbReevaluacion.UseVisualStyleBackColor = true;
@@ -371,33 +349,32 @@
             // 
             this.LblMensaje.AutoSize = true;
             this.LblMensaje.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMensaje.Location = new System.Drawing.Point(115, 37);
-            this.LblMensaje.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblMensaje.Location = new System.Drawing.Point(86, 30);
             this.LblMensaje.Name = "LblMensaje";
-            this.LblMensaje.Size = new System.Drawing.Size(143, 20);
+            this.LblMensaje.Size = new System.Drawing.Size(114, 15);
             this.LblMensaje.TabIndex = 5;
             this.LblMensaje.Text = "Hola, Administrador";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::MOANSO_T.Properties.Resources.Administrador;
-            this.pictureBox1.Location = new System.Drawing.Point(19, 15);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(14, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(67, 62);
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
             // Administrador
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(881, 554);
+            this.ClientSize = new System.Drawing.Size(661, 450);
             this.Controls.Add(this.BtnCerrarSesion);
             this.Controls.Add(this.TpControl);
             this.Controls.Add(this.LblMensaje);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Administrador";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Administrador";
