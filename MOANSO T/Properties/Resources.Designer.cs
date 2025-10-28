@@ -73,6 +73,16 @@ namespace MOANSO_T.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Asesor {
+            get {
+                object obj = ResourceManager.GetObject("Asesor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ControlAcceso {
             get {
                 object obj = ResourceManager.GetObject("ControlAcceso", resourceCulture);
