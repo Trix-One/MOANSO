@@ -5,8 +5,6 @@ VisualStudioVersion = 17.14.36603.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Capa - Presentacion", "MOANSO T\1. Capa - Presentacion.csproj", "{81509944-2004-4496-A961-0AAB7930F1DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Capa - Datos", "2. Capa - Datos\2. Capa - Datos.csproj", "{004C372D-825B-4240-B5CB-1E04B7AC51CF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{81509944-2004-4496-A961-0AAB7930F1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81509944-2004-4496-A961-0AAB7930F1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81509944-2004-4496-A961-0AAB7930F1DA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{004C372D-825B-4240-B5CB-1E04B7AC51CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{004C372D-825B-4240-B5CB-1E04B7AC51CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{004C372D-825B-4240-B5CB-1E04B7AC51CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{004C372D-825B-4240-B5CB-1E04B7AC51CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
