@@ -3,19 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36603.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Capa - Presentacion", "MOANSO T\1. Capa - Presentacion.csproj", "{81509944-2004-4496-A961-0AAB7930F1DA}"
-EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{81509944-2004-4496-A961-0AAB7930F1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81509944-2004-4496-A961-0AAB7930F1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81509944-2004-4496-A961-0AAB7930F1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81509944-2004-4496-A961-0AAB7930F1DA}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
